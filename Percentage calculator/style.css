@@ -1,0 +1,77 @@
+/* A margin and padding are provided 0 
+box-sizing border box is used to include 
+padding and border in the total width 
+and height of the element, and font-family 
+can be specified by the user */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/* The user display allows you to specify the
+background colour and height. The 
+display:flex property, which is aligned at the
+centre, is used to fill available free space 
+or to shrink them to prevent overflow. */
+body {
+	background-color: #f7f7f7;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* font-weight Specifies weight of glyphs 
+in the font, their degree of blackness or 
+stroke */
+h1 {
+	font-weight: 900;
+	margin-bottom: 12px;
+}
+
+div {
+	width: 480px;
+	background-color: #fff;
+	margin: 12px 0;
+	padding: 24px;
+	text-align: center;
+	box-shadow: 2px 2px 8px 2px #aaa;
+}
+
+input[type=number] {
+	width: 84px;
+	font-size: 18px;
+	padding: 8px;
+	margin: 0px 8px 8px 8px;
+}
+
+/* The text-transform:uppercase property 
+causes characters to be raised to uppercase. 
+The button's font-weight, font-size, and 
+cursor type can be customised by the user. */
+button {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 20px;
+	margin: 12px 0;
+	padding: 8px;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+
+/* The font-weight, font-size, background-color, 
+and border can all be customized by the user. 
+The border-radius property allows you to give 
+an element rounded corners.*/
+input[type=text] {
+	font-size: 22px;
+	padding: 8px 0;
+	font-weight: 900;
+	text-align: center;
+	background-color: #f7f7f7;
+	border: 2px solid #ccc;
+	border-radius: 6px;
+}

@@ -1,0 +1,83 @@
+body { 
+	background-color: #09dbd450; 
+} 
+
+.outer { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	height: 400px; 
+} 
+
+.heading { 
+	display: flex; 
+	align-items: center; 
+	height: 28px; 
+	justify-content: center; 
+} 
+
+h1, 
+h2 { 
+	text-align: center; 
+} 
+
+h1 { 
+	color: green; 
+	background-color: white; 
+	display: inline; 
+} 
+
+h2 { 
+	color: rgb(139, 52, 52); 
+} 
+
+p { 
+	text-align: center; 
+	font-weight: bold; 
+} 
+
+.popup { 
+	background-color: #fafafa; 
+	width: 366px; 
+	height: 222px; 
+	border-radius: 26px; 
+	text-align: center; 
+	display: none; 
+	transition: all 0.5s ease; 
+	transition-duration: 1s; 
+} 
+
+#showbtn { 
+	margin: 200px auto; 
+} 
+
+#closebtn { 
+	margin-top: 3px; 
+} 
+
+.popup button { 
+	margin-top: 6px; 
+} 
+
+button { 
+	background-color: rgb(0, 0, 0); 
+	color: white; 
+	border-radius: 5px; 
+	height: 36px; 
+	width: 77px; 
+	border: none; 
+	transition-duration: 0.5s; 
+	font-size: 17px; 
+} 
+
+.far.fa-check-circle { 
+	color: blue; 
+	font-size: 37px; 
+	margin-top: 7px; 
+} 
+
+button:hover { 
+	background-color: rgb(113, 140, 139); 
+	color: white; 
+	/* transition-delay: 0.4s; */
+}

@@ -1,0 +1,21 @@
+/* style.css */
+body {
+	font-family: Arial, sans-serif;
+}
+
+.sortable-list {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	background-color: #f0f0f0;
+	padding: 10px;
+	margin: 5px;
+	cursor: grab;
+}

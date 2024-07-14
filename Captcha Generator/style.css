@@ -1,0 +1,40 @@
+#image {
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px gray;
+    width: 60px;
+    padding: 20px;
+    font-weight: 400;
+    padding-bottom: 0px;
+    height: 40px;
+    user-select: none;
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: x-large;
+    border: 2px solid red;
+    margin-left: 10px;
+}
+
+#user-input {
+    box-shadow: 5px 5px 5px gray;
+    width: auto;
+    margin-right: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    height: 40px;
+    border: 0px solid red;
+}
+
+input {
+    border: 1px solid black;
+}
+
+.inline {
+    display: inline-block;
+}
+
+#btn {
+    box-shadow: 5px 5px 5px gray;
+    color: aqua;
+    margin: 10px;
+    background-color: brown;
+}
